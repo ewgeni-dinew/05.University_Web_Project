@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="page-layout.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="shop-stylesheet.css">
+    <meta charset="UTF-8">
+    <title>Modelling Kits</title>
+</head>
+<body>
+<div class="main-container">
+    <header class="header-container">
+        <h1>Modelling Kits</h1><br>
+    </header>
+
+    <div id="main">
+        <button onclick="topFunction()" id="upBtn" title="Go to top">To top
+        </button>
+
+        <nav>
+            <ul class="sidenav">
+                <li><a class="link" href="home-page.html">Home</a></li>
+                <li><a class="link shop" href="shop.html">Modelling Kits</a></li>
+                <li><a class="link" href="register_form.html">Register</a></li>
+                <li><a class="link" href="home-page.html #quality">Materials</a></li>
+                <li><a class="link" href="home-page.html #brands">Brands</a></li>
+                <li><a class="link" href="home-page.html #deliveries">Deliveries</a></li>
+                <li><a class="link" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <br><hr>
+            <div class="criteria">
+                <h2>Enter your criteria here</h2>
+                <div class="form-element">
+                    <label class="inlineText"><strong>Choose brand and scale: </strong></label>
+                    <select title="brand" name="brandStr">
+                            <option value="" hidden="">Brand</option>
+                            <option value="0">Tamiya</option>
+                            <option value="1">HobbyBoss</option>
+                            <option value="2">Italiery</option>
+                            <option value="3">Trumpeter</option>
+                            <option value="4">Zvezda</option>
+                            <option value="5">HobbyMakers</option>
+                        </select>
+                    <select title="scale" name="scaleStr">
+                        <option value="" hidden="">Scale</option>
+                        <option value="0">1/16</option>
+                        <option value="1">1/35</option>
+                        <option value="2">1/48</option>
+                        <option value="3">1/72</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <label class="inlineText"><strong>Price range: </strong></label>
+                    <input class="longerHalfBox" type="number" placeholder="From" name="priceFrom"><b> To </b>
+                    <input class="longerHalfBox" type="number" placeholder="" name="priceTo">
+                </div>
+                <div class="form-element">
+                    <label class="inlineText"><strong>Status: </strong></label>
+                    <input title="" type="radio" name="status" checked> currently avaiable<br>
+                    <input title="" type="radio" name="status" > awaiting delivery<br>
+                    <input title="" type="radio" name="status" > arriving in November<br>
+                    <input title="" type="radio" name="status" > arriving in December<br>
+                    <input title="" type="radio" name="status" > out of stock<br>
+                </div>
+                <div class="form-element">
+                    <select title="brand" name="brandStr">
+                        <option value="" hidden="">Order by:</option>
+                        <option value="0">Price-Low to High</option>
+                        <option value="1">Price-High to Low</option>
+                        <option value="2">Date added</option>
+                        <option value="3">Rating</option>
+                    </select>
+                </div>
+                <div class="form-element">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>
+            <hr><br>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/m26.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 18.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/m51.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 21.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/king-tiger.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 19.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/t55.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 38.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/t90.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 15.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/leo2.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 41.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/chalg1.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 26.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/m1a2.png">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 32.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <div class="merchandise">
+                <h3>Et harum quidem facilis est et expedita</h3>
+                <img src="products/t34.jpg">
+                <p>On the other hand, we denounce with righteous indignation and dislike men who are
+                    so beguiled and demoralized pleasure of the moment, so blinded
+                    by desire, that they cannot foresee the pain and trouble that are bound to ensue;
+                    and equal blame belongs to who fail,which is the from toil and pain. In a free hour,
+                    is untrammelled and when nothing prevents our being able to do what we like best,
+                    every pleasure is to be welcomed and every pain avoided. But in certain
+                    circumstances and owing to the claims of duty or the obligations of business it
+                    will frequently occur annoyances accepted prevents our being able to do what we
+                    like best prevents our being able to do what we like best.</p>
+                <div class="commands">
+                    <label>Price: 30.99$</label>
+                    <button class="buyBtn" type="submit">Add to cart</button>
+                    <input type="number" placeholder="Quantity" name="stockNum">
+                    <button class="detailsBtn" type="submit">Details</button>
+                </div>
+            </div>
+            <p id="page-num">
+                <a href="#">1</a>,
+                <a href="#">2</a>,
+                <a href="#">3</a>,
+                <a href="#">4</a>,...,
+                <a href="#">10</a>
+            </p>
+            <br><hr><br>
+
+        </article>
+
+        <aside class="hide">
+        </aside>
+    </div>
+
+    <footer class="footer-container">
+        <p>
+            <a href="http://www.w3.org/html/logo/">
+                <img id="html5-valid" src="https://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-performance.png" width="229" height="64" alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, and Performance &amp; Integration" title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, and Performance &amp; Integration">
+            </a>
+        </p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img id="w3-valid"
+                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                     alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+</div>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("upBtn").style.display = "block";
+        } else {
+            document.getElementById("upBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="regForm_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="page-layout.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <title>Register Form</title>
+</head>
+<body>
+<div class="main-container">
+    <header class="header-container"><h1>Register</h1></header><br>
+    <div id="main">
+        <button onclick="topFunction()" id="upBtn" title="Go to top">To top</button>
+
+        <nav>
+            <ul class="sidenav">
+                <li><a class="link" href="home-page.html">Home</a></li>
+                <li><a class="link" href="shop.html">Modelling Kits</a></li>
+                <li><a class="link register" href="register_form.html">Register</a></li>
+                <li><a class="link" href="home-page.html #quality">Materials</a></li>
+                <li><a class="link" href="home-page.html #brands">Brands</a></li>
+                <li><a class="link" href="home-page.html #deliveries">Deliveries</a></li>
+                <li><a class="link" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="signUp-Box">
+                <h2>Fill in the document</h2>
+                <hr><br>
+                <div class="form-element-name">
+                    <label class="inlineText"><strong>Name</strong></label>
+                    <input class="longerHalfBox" type="text" placeholder="First name" name="name" required>
+                    <input class="longerHalfBox" type="text" placeholder="Last name" name="name" required>
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Choose a valid username</strong></label>
+                    <input class="longerBox" type="email" placeholder="@gmail.com" name="username" required>
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Create Password</strong></label>
+                    <input title="pass" class="longerBox" type="password"  name="pass" required>
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Confirm Password</strong></label>
+                    <input title="pass" class="longerBox" type="password"  name="confirmPass" required>
+                </div>
+
+                <div class="form-element-dateInfo">
+                    <label class="inlineText"><strong>Birth Date</strong></label>
+                    <input class="longerThirdBox" type="number" placeholder="Day" name="date" required>
+
+                    <form name="months">
+                        <select title="month" name="monthStr">
+                            <option value="" hidden="">Month</option>
+                            <option value="0">January</option>
+                            <option value="1">February</option>
+                            <option value="2">March</option>
+                            <option value="3">April</option>
+                            <option value="4">May</option>
+                            <option value="5">June</option>
+                            <option value="6">July</option>
+                            <option value="7">August</option>
+                            <option value="8">September</option>
+                            <option value="9">October</option>
+                            <option value="10">November</option>
+                            <option value="11">December</option>
+                        </select>
+                    </form>
+
+                    <input class="longerThirdBox" type="number" placeholder="Year" name="year" required>
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Gender</strong></label>
+                    <input title="male" type="radio" name="gender" value="male" checked> Male<br>
+                    <input title="female" type="radio" name="gender" value="female"> Female<br>
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Mobile number</strong></label>
+                    <input title="tel" class="longerBox" type="tel" name="tel" value="+359">
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Current e-mail address</strong></label>
+                    <input title="email" class="longerBox" type="email" name="currEm" required>
+                </div>
+
+                <div class="form-element">
+                    <label class="inlineText"><strong>Origin</strong></label>
+                    <form name="country">
+                        <select title="countrystr" name="countryStr">
+                            <option value="" hidden="">Country</option>
+                            <option value="0">Bulgaria</option>
+                            <option value="1">Greece</option>
+                            <option value="2">FYROM</option>
+                            <option value="3">Romania</option>
+                            <option value="4">Serbia</option>
+                            <option value="5">Montenegro</option>
+                            <option value="6">Croatia</option>
+                            <option value="7">Bosnia</option>
+                        </select>
+                    </form>
+                </div>
+
+                <div class="form-element">
+                    <input title="checkBx" type="checkbox" checked="checked"> Remember Me
+                    <p>By creating this account you agree with the following
+                        <a href="">terms and conditions</a> of the website.</p>
+                </div>
+                <hr><br>
+                <div  class="form-element">
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                    <button onclick="location.href='home-page.html'" type="button" class="cancelbtn">Cancel</button>
+                </div>
+                <br>
+            </div>
+        </article>
+
+        <aside class="hide">
+        </aside>
+    </div>
+    <footer>
+        <p>
+            <a href="http://www.w3.org/html/logo/">
+                <img id="html5-valid" src="https://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-performance.png" width="229" height="64" alt="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, and Performance &amp; Integration" title="HTML5 Powered with Connectivity / Realtime, CSS3 / Styling, Device Access, and Performance &amp; Integration">
+            </a>
+        </p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img id="w3-valid"
+                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                     alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+</div>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("upBtn").style.display = "block";
+        } else {
+            document.getElementById("upBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+</body>
+</html>
