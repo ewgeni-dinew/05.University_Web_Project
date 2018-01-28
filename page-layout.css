@@ -1,0 +1,84 @@
+body{
+    background-image:url("images/wallpaper-background.jpg");
+}
+
+.header-container{
+    font-size: 22px;
+    text-align: center;
+
+}
+
+article{
+    border-radius: 8px;
+    border: solid silver;
+    background-color: #e1e2f2;
+}
+
+header, footer{
+    display: block;
+    margin:5px;
+    padding: 5px;
+}
+
+nav,aside{
+    border-radius: 4px;
+    background-color: #09003b;
+}
+
+aside{
+    border: 1px solid #09003b;
+    background-image: url("images/movie-poster.jpg");
+}
+
+footer p{
+    display: inline-block;
+}
+
+#main{
+    min-height: 800px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-flow: row;
+}
+
+#main>article{
+    margin: 5px;
+    padding: 5px;
+    flex: 3 1 60%;
+    order: 2;
+}
+
+#main>nav{
+    margin: 5px;
+    padding: 5px;
+    flex: 1 6 18%;
+    order: 1;
+}
+#main>aside{
+    margin: 5px;
+    padding: 5px;
+    flex: 1 6 22%;
+    order: 3;
+}
+
+@media (max-width:992px ) {
+    .hide{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    #main {
+        flex-direction: column;
+    }
+
+    #main>nav {
+        text-align: center;
+        order: 1;
+    }
+
+    #main>article{
+        order: 2;
+    }
+}

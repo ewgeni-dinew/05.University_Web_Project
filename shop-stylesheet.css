@@ -1,0 +1,150 @@
+.header-container h1{
+    padding: 0.3em 0 0.3em;
+    border-radius: 8px;
+    background-color: #09003b;
+    color: white;
+    border-bottom: 7px solid #1e90ff;
+}
+
+.criteria{
+    padding: 0 2em 0 2em;
+}
+
+.criteria h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.criteria label{
+    font-size: 19px;
+}
+
+.form-element{
+    position: relative;
+    margin:0 0 1.5em;
+}
+
+.inlineText{
+    display: block;
+}
+
+.longerHalfBox{
+    font-size: 17px;
+    border-radius: 4px;
+    border: 2px solid silver;
+    padding: 2px 0 2px 7px;
+}
+
+select[name="scaleStr"], select[name="brandStr"]{
+    margin-right: 1em;
+    border-radius: 4px;
+    border: 2px solid silver;
+    font-size: 17px;
+    padding: 2px 0 2px 5px;
+}
+
+.merchandise{
+    background-color: #efeff7;
+    border: 2px solid silver;
+    border-radius: 5px;
+    margin: 2em 0 2em 0.75em;
+}
+
+.merchandise img{
+    border: 1px solid #09003b;
+    border-radius: 2px;
+    margin: 0 0.7em 2px 5px;
+    float: left;
+    width: 42%;
+}
+.merchandise h3{
+    margin:4px 0 0.8em 1em;
+    text-align: left;
+}
+.merchandise p{
+    margin-right: 1em;
+    line-height: 130%;
+    text-align: left;
+}
+.merchandise input{
+    text-align: right;
+}
+.commands{
+    margin: 1em 0 1em 4em ;
+}
+.commands label{
+    padding-right: 5px;
+    text-decoration: underline;
+}
+.commands input{
+width: 17%;
+}
+
+#page-num {
+    text-align: center;
+}
+
+.sidenav {
+    max-width: 100%;
+    background-color: #12006d;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.link.shop{
+    background-color: #1e90ff;
+    border-left: 5px solid #00bfff;
+}
+
+.link {
+    display: block;
+    transition: 0.8s;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1em 2em 1em 2em;
+}
+
+.link:not(.shop){
+    border: 1px solid #5f9ea0;
+}
+
+.link:hover:not(.shop) {
+    background-color: #E90052;
+    color: white;
+    border-left: 5px solid #ff4500;
+    padding: 1em 2em 1em 2em;
+}
+
+#html5-valid{
+    border:0;
+    width: 10.7em;
+    height:3.125em;
+}
+
+#w3-valid{
+    border:0;
+    width: 5.5em;
+    height:2.2em;
+}
+
+#upBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: 3px solid orangered;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#upBtn:hover {
+    background-color: greenyellow;
+    color: black;
+}
